@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mohammedterfa
-- 👀 I’m interested in web developing based on Laravel framework
+- 👀 I’m interested in web development based on Laravel framework
 - 🌱 I’m currently learning Laravel & React
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
