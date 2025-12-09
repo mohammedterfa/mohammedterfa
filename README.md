@@ -1,22 +1,60 @@
-# class MohammedTerfaProfile {
-    ## About
-    مطور برمجيات يعمل على تطوير الأنظمة باستخدام Laravel و‎.NET،
-    مع التركيز على كتابة كود منظم، قابل للتطوير، وقائم على مبادئ الهندسة البرمجية.
+public class MohammedTerfa
+{
+    // Constructor
+    public MohammedTerfa()
+    {
+        Name = "Mohammed Terfa";
+        Email = "mohammedterfa@gmail.com";
 
-    ## Skills
-    - Laravel / PHP
-    - ‎.NET / C#
-    - Vue.js
-    - Inertia.js
-    - Livewire
-    - بناء APIs
-    - قواعد البيانات
-    - JavaScript / Nuxt
-    - Git وGitHub
+        BackendSkills = new List<string>
+        {
+            "Laravel / PHP",
+            ".NET / C#",
+            "API Development"
+        };
 
-    ## Approach
-    يعتمد العمل على التصميم الجيد، التنظيم، وجودة الكود لضمان أنظمة مستقرة وسهلة الصيانة.
+        FrontendSkills = new List<string>
+        {
+            "Vue.js",
+            "Inertia.js",
+            "Livewire",
+            "Nuxt.js",
+            "JavaScript"
+        };
 
-    ## Contact
-    البريد: mohammedterfa@gmail.com
+        OtherSkills = new List<string>
+        {
+            "Database Design",
+            "Git & GitHub"
+        };
+    }
+
+    // Properties
+    public string Name { get; }
+    public string Email { get; }
+
+    public List<string> BackendSkills { get; }
+    public List<string> FrontendSkills { get; }
+    public List<string> OtherSkills { get; }
+
+    // Methods
+    public string GetSummary()
+    {
+        return $"{Name}: Software Developer specializing in Laravel, .NET, and modern web technologies.";
+    }
+
+    public void WorkApproach()
+    {
+        /* 
+           - Focus on clean, maintainable, and scalable code.
+           - Follow engineering principles and good architectural practices.
+           - Aim for stable, well-structured systems.
+        */
+    }
+
+    public void Contact()
+    {
+        // التواصل عبر الإيميل
+        Console.WriteLine($"Email: {Email}");
+    }
 }
