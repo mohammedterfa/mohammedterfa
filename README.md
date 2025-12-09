@@ -1,6 +1,3 @@
-# 👋 مرحباً، أنا Mohammed Terfa
-
-## 💻 من أنا؟
 ```csharp
 public class MohammedTerfa { 
     // Constructor
@@ -30,6 +27,3 @@ public class MohammedTerfa {
     }
 }
 ```
-
-## 📫 تواصل معي
-- Email: mohammedterfa@gmail.com
