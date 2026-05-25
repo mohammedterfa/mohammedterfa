@@ -18,7 +18,9 @@ public class MohammedTerfa {
         };
         OtherSkills = new List<string> { 
             "Database Design", 
-            "Git & GitHub" 
+            "Git & GitHub"
+            "DevOps",
+            "Linux
         };
     }
     
